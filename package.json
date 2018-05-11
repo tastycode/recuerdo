@@ -1,0 +1,17 @@
+{
+  "name": "recuerdo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "claudia:create": "export AWS_PROFILE=claudia && npx claudia create --name recuerdo --region us-west-2 --api-module index",
+    "claudia:update": "AWS_PROFILE=claudia npx claudia update"
+  },
+  "dependencies": {
+    "claudia-api-builder": "^4.0.0",
+    "twilio": "^3.16.0"
+  },
+  "devDependencies": {
+    "claudia": "^4.0.0"
+  }
+}

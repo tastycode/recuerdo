@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "recuerdo-executor",
+    "name": "recuerdo",
+    "region": "us-west-2"
+  },
+  "api": {
+    "id": "4py43x0qmf",
+    "module": "index"
+  }
+}
